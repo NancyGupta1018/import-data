@@ -1,0 +1,52 @@
+
+[{
+    "key": "sample3",
+    "name": "test_product_type_3",
+    "description": "Test product type 3.",
+    "attributes": [
+      {
+        "name": "product-ref-attribute",
+        "label": {
+          "en": "selling product"
+        },
+        "isRequired": false,
+        "isSearchable": false,
+        "type": {
+          "name": "reference",
+          "referenceTypeId": "category"
+        },
+        "attributeConstraint": "Unique",
+        "inputTip": {
+          "en": "product input tip"
+        },
+        "inputHint": "SingleLine"
+      }
+    ]
+  },
+  {
+    "key": "sample2",
+    "name": "test_product_type_2",
+    "description": "Test product type 2.",
+    "attributes": [
+      {
+        "name": "product-ref-attribute",
+        "label": {
+          "en": "selling product"
+        },
+        "isRequired": false,
+        "isSearchable": false,
+        "type": {
+          "name": "reference",
+          "referenceTypeId": "category"
+        },
+        "attributeConstraint": "Unique",
+        "inputTip": {
+          "en": "product input tip"
+        },
+        "inputHint": "SingleLine"
+      }
+    ]
+  }
+  
+]
+  
